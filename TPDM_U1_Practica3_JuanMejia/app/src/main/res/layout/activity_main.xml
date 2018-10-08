@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Su nombre: "
+            android:textSize="21dp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nivel escolar: "
+            android:textSize="21dp"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nivel básico (primaria/secundaria)"
+                android:id="@+id/basico"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nivel superior (preparatoria)"
+                android:id="@+id/superior"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Técnico/Profesión"
+                android:id="@+id/tecnico"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Superior (Licenciatura/Ing)"
+                android:id="@+id/lic"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maestría"
+                android:id="@+id/maestria"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doctorado"
+                android:id="@+id/doc"/>
+            </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sueldo actual mensual: "
+            android:textSize="21dp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:id="@+id/sueldo"/>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="48dp"
+            android:text="Calcular monto a presar"
+            android:layout_gravity="center"
+            android:id="@+id/calcular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/monto"
+            android:textSize="21dp"/>
+
+    </LinearLayout>
+</LinearLayout>

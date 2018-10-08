@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TPDM_U1_Practica6_JuanMejia</string>
+
+    <string-array name="menu">
+        <item>Capturar</item>
+        <item>Consultar</item>
+        <item>Acerca de...</item>
+    </string-array>
+</resources>

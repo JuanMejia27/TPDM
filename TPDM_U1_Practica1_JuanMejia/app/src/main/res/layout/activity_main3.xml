@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Main3Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombres"
+        android:id="@+id/nombres"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos"
+        android:id="@+id/apellidos"
+        android:layout_below="@id/nombres" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado civil"
+        android:id="@+id/txtcivil"
+        android:layout_below="@id/apellidos"
+        android:ems="8"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargo"
+        android:id="@+id/txtcargo"
+        android:layout_below="@id/apellidos"
+        android:layout_toRightOf="@id/txtcivil"
+        android:paddingTop="10dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spcivil"
+        android:entries="@array/estadocivil"
+        android:ems="10"
+        android:layout_below="@id/txtcivil"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtcargo"
+        android:layout_toRightOf="@id/spcivil"
+        android:entries="@array/cargo"/>
+
+</RelativeLayout>

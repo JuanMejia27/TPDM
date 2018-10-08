@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TPDM_U1_Practica1_JuanMejia</string>
+
+    <string-array name="estadocivil">
+        <item>Soltero</item>
+        <item>Casado</item>
+    </string-array>
+
+    <string-array name="cargo">
+        <item>Ventas</item>
+        <item>Informática</item>
+        <item>Jardinería</item>
+    </string-array>
+
+</resources>

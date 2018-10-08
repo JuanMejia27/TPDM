@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TPDM__U1_Practica8_JuanMejia</string>
+
+    <string-array name="menu">
+        <item>Asignar cantidad</item>
+        <item>Generar</item>
+        <item>Calcular</item>
+        <item>Limpiar</item>
+        <item>Salir</item>
+    </string-array>
+
+</resources>

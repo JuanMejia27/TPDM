@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TPDM_U1_Ejercicio3</string>
+    <string-array name="opciones">
+        <item>Activiti 1</item>
+        <item>Activiti 2</item>
+        <item>Acerca de...</item>
+        <item>Salir</item>
+    </string-array>
+
+</resources>

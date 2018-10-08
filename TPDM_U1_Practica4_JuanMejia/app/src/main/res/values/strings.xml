@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TPDM_U1_Practica4_JuanMejia</string>
+
+    <string-array name="opcines">
+        <item>Imagen</item>
+        <item>Impuestos</item>
+        <item>Acerca de...</item>
+        <item>Salir</item>
+    </string-array>
+
+    <string-array name="img">
+        <item>Logo tec</item>
+        <item>pickle rick</item>
+        <item>koyomi</item>
+        <item>adventure time</item>
+    </string-array>
+
+    <string-array name="impuestos">
+        <item>IVA</item>
+        <item>ISR</item>
+        <item>IDE</item>
+        <item>IEPS</item>
+        <item>IETU</item>
+    </string-array>
+
+</resources>

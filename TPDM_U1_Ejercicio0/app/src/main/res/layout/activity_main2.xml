@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="2"
+    tools:context=".Main2Activity">
+
+    <TableRow>
+        <TextView android:text="Escriba su nombre"/>
+        <EditText android:ems="7"/>
+        <Button android:text="Gusrdar"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="Boton1"/>
+        <Button android:text="Boton2"/>
+        <Button android:text="Boton3"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="Boton1"/>
+        <Space />
+        <Button android:text="Boton3"/>
+    </TableRow>
+
+</TableLayout>

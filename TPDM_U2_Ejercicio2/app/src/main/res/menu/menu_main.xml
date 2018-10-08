@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.edu.ittepic.tpdm_u2_ejercicio2.MainActivity">
+
+    <item android:id="@+id/agregarabogado"
+        android:title="Agregar abogado" />
+    <item android:id="@+id/mostrarabogado"
+        android:title="Mostrar abogado"/>
+</menu>
